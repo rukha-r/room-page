@@ -1,0 +1,24 @@
+{
+  "files": {
+    "main.css": "/room-page/static/css/main.16f53fbe.chunk.css",
+    "main.js": "/room-page/static/js/main.2aff0b80.chunk.js",
+    "main.js.map": "/room-page/static/js/main.2aff0b80.chunk.js.map",
+    "runtime-main.js": "/room-page/static/js/runtime-main.145671a5.js",
+    "runtime-main.js.map": "/room-page/static/js/runtime-main.145671a5.js.map",
+    "static/js/2.c84dd520.chunk.js": "/room-page/static/js/2.c84dd520.chunk.js",
+    "static/js/2.c84dd520.chunk.js.map": "/room-page/static/js/2.c84dd520.chunk.js.map",
+    "index.html": "/room-page/index.html",
+    "static/css/main.16f53fbe.chunk.css.map": "/room-page/static/css/main.16f53fbe.chunk.css.map",
+    "static/js/2.c84dd520.chunk.js.LICENSE.txt": "/room-page/static/js/2.c84dd520.chunk.js.LICENSE.txt",
+    "static/media/desktop-image-hero-1.91901d0d.jpg": "/room-page/static/media/desktop-image-hero-1.91901d0d.jpg",
+    "static/media/desktop-image-hero-2.9d354056.jpg": "/room-page/static/media/desktop-image-hero-2.9d354056.jpg",
+    "static/media/desktop-image-hero-3.05fd679a.jpg": "/room-page/static/media/desktop-image-hero-3.05fd679a.jpg",
+    "static/media/image-about-dark.329bbc44.jpg": "/room-page/static/media/image-about-dark.329bbc44.jpg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.145671a5.js",
+    "static/js/2.c84dd520.chunk.js",
+    "static/css/main.16f53fbe.chunk.css",
+    "static/js/main.2aff0b80.chunk.js"
+  ]
+}
