@@ -1,0 +1,148 @@
+$primary-color: #242a39;
+$secondary-color: #868889;
+* {
+  margin: 0;
+  padding: 0;
+  color: $secondary-color;
+  font-family: Arial;
+  font-weight: lighter;
+  box-sizing: border-box;
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6 {
+    color: $primary-color;
+  }
+  p {
+    font-size: 1.2vw;
+  }
+  img {
+    width: 100%;
+    height: 100%;
+  }
+}
+
+main {
+  display: grid;
+  grid-template-columns: 55% 45%;
+  grid-template-rows: 70% 30%;
+  .image-part {
+    animation: fadeIn 0.5s ease-in-out;
+  }
+  @keyframes fadeIn {
+    from {
+      opacity: 0.4;
+    }
+    to {
+      opacity: 1;
+    }
+  }
+  .title-part {
+    .title {
+      margin: 4vw;
+      width: 35vw;
+      h1 {
+        font-size: 3vw;
+      }
+      p {
+        margin: 2vw 0;
+        height: 10vw;
+      }
+      h4 {
+        width: 9vw;
+        opacity: 0.6;
+        font-size: 1.3vw;
+        cursor: pointer;
+        &:hover {
+          opacity: 1;
+          transition: 300ms ease-in-out;
+        }
+      }
+    }
+    .button-holder {
+      display: flex;
+      .button {
+        width: 5vw;
+        padding: 1.3vw;
+        font-size: 1.5vw;
+        cursor: pointer;
+        text-align: center;
+        transition: 300ms ease-in-out;
+        background-color: $primary-color;
+        &:hover {
+          background-color: $secondary-color;
+          * {
+            color: white;
+          }
+        }
+      }
+    }
+  }
+  .about-part {
+    grid-column: 1/3;
+    display: grid;
+    grid-template-columns: 30% 40% 30%;
+    .about {
+      word-spacing: 3px;
+      margin: 2.5vw;
+      p {
+        margin: 1vw 0;
+      }
+    }
+  }
+}
+
+@media screen and (max-width: 450px) {
+  main {
+    display: block;
+    .title-part {
+      * {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+      }
+      .title {
+        margin: 0;
+        width: 100%;
+        h1 {
+          font-size: 20px;
+        }
+        h4 {
+          font-size: 14px;
+          width: 100%;
+          margin: 10px;
+          .icon {
+            display: none;
+          }
+        }
+        p {
+          margin: 50px 20px;
+          font-size: 12px;
+        }
+        .button-holder {
+          width: 100%;
+          flex-direction: row;
+          .button {
+            padding: 10px;
+            font-size: 20px;
+            width: 50px;
+            background: none;
+          }
+        }
+      }
+    }
+    .about-part {
+      display: block;
+      .about {
+        margin: 25px;
+        text-align: center;
+        p {
+          font-size: 11px;
+        }
+      }
+    }
+  }
+}
